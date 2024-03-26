@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <link
       rel="icon"
@@ -17,25 +17,35 @@
   <body>
     <nav class="top-nav">
       <div class="logo"></div>
-      <ul>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Service</a></li>
-        <li><a href="#">Projects</a></li>
-      </ul>
-      <button class="schedule-button">Schedule a call</button>
+      <div class="nav-container">        
+          <img src="./assets/desktop/logo.svg" alt="">
+        </div>
+        <div class="nav-container-right">
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Projects</a></li>
+          </ul>
+          <button class="schedule-button">Schedule a call</button>
+        </div>
+        
+      </div>      
     </nav>
 
     <header>
-      <div class="header-text-left">
-        <h1>Branding & website design agency</h1>
-        <p>
-          We specialize in visual storytelling by creating cohesive brand and
-          website design solutions for small businesses, giving lasting
-          impressions to audiences in a digital world.
-        </p>
-        <button class="header-button">Learn more</button>
+      <div class="header-container">
+        <div class="header-text-left">
+          <h1>Branding & website design agency</h1>
+          <p>
+            We specialize in visual storytelling by creating cohesive brand and
+            website design solutions for small businesses, giving lasting
+            impressions to audiences in a digital world.
+          </p>
+          <button class="header-button">Learn more</button>
+        </div>
+        <div class="header-image-right"></div>
       </div>
-      <div class="header-image-right"></div>
+      
     </header>
 
     <section class="strategic-design">
@@ -125,8 +135,8 @@
       </div>        
       
       <!-- Back and forward buttons -->
-      <a class="back" onclick="plusSlides(-1)">&#10094;</a>
-      <a class="forward" onclick="plusSlides(1)">&#10095;</a>
+      <a class="back" onclick="plusSlides(-1)"&#10094><</a>
+      <a class="forward" onclick="plusSlides(1)"&#10095>></a>
     </section>
 
     <footer class="footer">

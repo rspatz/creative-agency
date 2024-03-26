@@ -27,4 +27,93 @@
 
 h1 {
   font-family: 'Commissioner-ExtraBold';
+  font-size: 5rem;
+  line-height: 5.5rem;
+}
+
+h2 {
+  font-family: 'Commissioner-ExtraBold';
+  font-size: 3.5rem;
+  line-height: 4rem;
+}
+
+h3 {
+  font-family: 'Commissioner-ExtraBold';
+  font-size: 1.25rem;
+  line-height: 2rem;
+}
+
+p {
+  font-family: 'Commissioner-Regular';
+  font-size: 1.125rem;
+  line-height: 2rem;
+}
+
+/* Top Navigation */
+.top-nav {
+  display: flex;
+  width: 30%;
+  align-items: center;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+
+.nav-container-right {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 55rem;
+  background-color: var(--red);
+  padding: 4rem 0;
+  width: 90%;
+}
+
+.top-nav ul {
+  display: flex;
+  font-family: 'Commissioner-Regular';
+}
+
+.top-nav li {
+  color: var(--white);
+  list-style-type: none;
+}
+
+.top-nav a {
+  text-decoration: none;
+  ccolor: var(--white);
+}
+
+/* Header */
+.header-container {
+  display: flex;
+}
+
+.header-text-left {
+  margin: 15rem 0 0 6rem;
+  width: 50%;
+  z-index: 1000;
+}
+
+.header-text-left p {
+  margin: 2rem 0;
+}
+
+.header-image-right {
+  height: 70rem;
+  width: 100%;
+  margin-left: -20rem;
+  background: url(../assets/desktop/image-hero.jpg) no-repeat 0 0;
+  background-position: bottom;
+  background-size: cover;
+  z-index: 0;
+}
+
+.header-button {
+  padding: 1rem 3rem;
+  background-color: var(--red);
+  color: var(--white);
+  border: none;
 }
