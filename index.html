@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css">
 
     <link
       rel="icon"
@@ -85,7 +86,7 @@
       </div>
     </section>
 
-    <section class="slideshow">
+    <section class="SlideShow">
       <!-- Slideshow container -->
       <div class="slideshow-container fade">
         <div class="Container">
@@ -93,6 +94,7 @@
             <h2>Brand naming & guidelines</h2>
           </div>    
           <div class="image-right">
+            <img src="./assets/desktop/image-slide-1.jpg" alt="">
             <h3>Lean Product Roadmap</h3>
             <h4>2019 project</h4>
           </div>          
@@ -104,6 +106,7 @@
                 merchandise</h2>
             </div>    
             <div class="image-right">
+              <img src="./assets/desktop/image-slide-2.jpg" alt="">
               <h3>New Majestic Hotel</h3>
             <h4>2018 Project</h4>
             </div>          
@@ -114,17 +117,24 @@
                 <h2>Brand identity & web design</h2>
               </div>    
               <div class="image-right">
+                <img src="./assets/desktop/image-slide-3.jpg" alt="">
                 <h3>Crypto Dashboard</h3>
                 <h4>2016 Project</h4>
               </div>          
-              </div>
-      </div>            
+              </div>              
+      </div>        
+      
+      <!-- Back and forward buttons -->
+      <a class="back" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="forward" onclick="plusSlides(1)">&#10095;</a>
     </section>
 
     <footer class="footer">
       <h2>Let's build something great together.</h2>
       <button class="footer-button">Schedule
         a Call</button>
-    </footer>       
+    </footer>
+          
+       <script src="js/script.js"></script>
   </body>
 </html>
