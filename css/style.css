@@ -52,38 +52,58 @@ p {
 /* Top Navigation */
 .top-nav {
   display: flex;
-  width: 30%;
   align-items: center;
+  /* background-color: var(--red); */
 }
 
 .nav-container {
   display: flex;
-  justify-content: space-between;
   padding: 2rem 0;
+  align-items: center;
+  width: 30%;
 }
 
-.nav-container-right {
+.links-container {
   display: flex;
-  justify-content: space-between;
-  margin-left: 55rem;
-  background-color: var(--red);
-  padding: 4rem 0;
-  width: 90%;
+  align-items: center;
 }
 
-.top-nav ul {
+.links-container a {
+  margin-right: 2rem;
+}
+
+/* .top-nav-links {
+  display: flex;
+  margin-left: 55rem;
+  /* background-color: var(--red); */
+/* padding: 4rem 0;
+width: 90%;
+*/
+.nav-container ul {
   display: flex;
   font-family: 'Commissioner-Regular';
+  margin-left: 40rem;
 }
 
-.top-nav li {
+.nav-container li {
   color: var(--white);
   list-style-type: none;
 }
 
-.top-nav a {
+.nav-container a {
   text-decoration: none;
   ccolor: var(--white);
+}
+
+.logo {
+  margin-left: 6rem;
+}
+
+.schedule-button {
+  padding: 0.5rem 3rem;
+  background-color: var(--bg-black);
+  color: var(--white);
+  border: none;
 }
 
 /* Header */
@@ -133,21 +153,22 @@ p {
 }
 
 .text-container {
-  margin: 10rem 6rem;
+  margin: 10rem 0 0 12rem;
 }
 
 .strategic-text-right {
-  width: 42%;
+  width: 52%;
   background-color: var(--bg-black);
 }
 
 .strategic-text-right h2 {
+  width: 42%;
   color: var(--white);
 }
 
 .strategic-text-right p {
   color: var(--white);
-  width: 98%;
+  width: 70%;
   padding: 2rem 0;
 }
 
