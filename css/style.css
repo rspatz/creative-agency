@@ -189,6 +189,13 @@ span {
   z-index: 1000;
 }
 
+.approach-number {
+  font-family: 'Commissioner-ExtraBold';
+  font-size: 4rem;
+  opacity: 25%;
+  margin: -2.5rem;
+}
+
 .approach-list {
   width: 75%;
   height: 35rem;
