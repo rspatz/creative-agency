@@ -26,7 +26,7 @@
 /* Base Styles */
 
 h1 {
-  font-family: 'Commissioner-ExtraBold';
+  font-family: 'Commissioner-Regular';
   font-size: 5rem;
   line-height: 5.5rem;
 }
@@ -50,61 +50,52 @@ p {
 }
 
 /* Top Navigation */
-.top-nav {
-  display: flex;
-  align-items: center;
-  /* background-color: var(--red); */
-}
-
-.nav-container {
-  display: flex;
-  padding: 2rem 0;
-  align-items: center;
-  width: 30%;
-}
-
-.links-container {
-  display: flex;
-  align-items: center;
-}
-
-.links-container a {
-  margin-right: 2rem;
-}
-
-/* .top-nav-links {
-  display: flex;
-  margin-left: 55rem;
-  /* background-color: var(--red); */
-/* padding: 4rem 0;
-width: 90%;
-*/
-.nav-container ul {
-  display: flex;
-  font-family: 'Commissioner-Regular';
-  margin-left: 40rem;
-}
-
-.nav-container li {
-  color: var(--white);
-  list-style-type: none;
-}
-
-.nav-container a {
-  text-decoration: none;
-  ccolor: var(--white);
+* {
+  margin: 0;
+  padding; 0;
 }
 
 .logo {
-  margin-left: 6rem;
+  margin-left: 8rem;
+}
+
+.nav-container,
+.links-container {
+display: flex;
+width: 100%;
+align-items: center;  
+}
+
+.links-container {
+  margin-left: 29rem;
+  background-color: var(--red);
+  width: 55%;
+  padding: 3rem 5rem;
+}
+
+.links-container ul {
+  display: flex;
+  margin: 0 5rem 0 0;
+}
+
+.links-container li {
+  list-style-type: none;
+  margin-right: 1.5rem;  
+}
+
+.links-container a {
+  font-family: 'Commissioner-Regular';
+  color: var(--white);
+  text-decoration: none;
 }
 
 .schedule-button {
-  padding: 0.5rem 3rem;
-  background-color: var(--bg-black);
-  color: var(--white);
+  padding: 1rem 3rem;
+  background-color: black;
+  color: white;
   border: none;
 }
+
 
 /* Header */
 .header-container {
@@ -122,11 +113,11 @@ width: 90%;
 }
 
 .header-image-right {
-  height: 70rem;
+  height: 60rem;
   width: 100%;
   margin-left: -20rem;
   background: url(../assets/desktop/image-hero.jpg) no-repeat 0 0;
-  background-position: bottom;
+  background-position: top;
   background-size: cover;
   z-index: 0;
 }
