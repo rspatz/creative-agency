@@ -224,6 +224,20 @@ span {
   z-index: 1000;
 }
 
+.info-left h2 {
+  margin: 6rem 0 2rem 8rem;
+  width: 60%;
+}
+
+.back {
+  margin: 5rem 0 0 8rem;  
+}
+
+.back,
+.forward {
+  color: var(--red);
+}
+
 .image-right {
   margin-left: 5rem;
 }
