@@ -210,3 +210,21 @@ span {
   list-style-type: none;
 }
 
+/* Slideshow Section */
+.Container {
+  display: flex;  
+}
+
+.info-left {
+  height: 25rem;
+  background-color: var(--bg-black);
+  color: var(--white);
+  margin-right: -15rem;
+  width: 100%;
+  z-index: 1000;
+}
+
+.image-right {
+  margin-left: 5rem;
+}
+

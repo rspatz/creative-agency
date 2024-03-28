@@ -28,8 +28,5 @@ function SlideShow(n) {
     slides[i].style.display = 'none';
   }
 
-  slides[slidePosition - 1].style.display = 'block';
+  slides[slidePosition - 1].style.display = 'flex';
 }
-
-//   slides[slidePosition - 1].style.display = 'block';
-// }
