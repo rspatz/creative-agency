@@ -91,8 +91,8 @@ align-items: center;
 
 .schedule-button {
   padding: 1rem 3rem;
-  background-color: black;
-  color: white;
+  background-color: var(--bg-black);
+  color: var(--white);
   border: none;
 }
 
@@ -240,5 +240,26 @@ span {
 
 .image-right {
   margin-left: 5rem;
+}
+
+/* Footer */
+.footer-container {
+  display: flex;
+  margin: 3rem 0;
+  align-items: center;
+  /* 'align-items: center' prevents button from stretching */
+}
+
+.footer-title {
+  width: 40%;
+  margin: 3rem 10rem;
+}
+
+.footer-button {
+  padding: 1rem 3rem;
+  background-color: var(--red);
+  color: var(--white);
+  border: none;
+  margin-left: 18rem;
 }
 
