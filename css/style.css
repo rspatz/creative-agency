@@ -229,8 +229,12 @@ span {
   width: 60%;
 }
 
+.slideshow-controls {
+  margin: 1rem 6rem;
+}
+
 .back {
-  margin: 5rem 0 0 8rem;  
+  margin: 5rem 0 0 1rem;  
 }
 
 .back,
@@ -261,5 +265,12 @@ span {
   color: var(--white);
   border: none;
   margin-left: 18rem;
+}
+
+.icon {
+  display: inline-block;
+  width: 16.3px;
+  height: 13.45px;
+  overflow: hidden;
 }
 
