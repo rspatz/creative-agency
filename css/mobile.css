@@ -1,4 +1,4 @@
-/* * {
+* {
   margin: 0;
   padding: 0;
 }
@@ -8,10 +8,11 @@
   --text-black: #000;
   --white: #fff;
   --red: #f94f4f;
-} */
+}
+*/
 
 /* Fonts */
-/* @font-face {
+@font-face {
   font-family: 'Commissioner-ExtraBold';
   src: url('../fonts/Commissioner/static/Commissioner-ExtraBold.ttf');
   format: 'true-type';
@@ -21,33 +22,317 @@
   font-family: 'Commissioner-Regular';
   src: url('../fonts/Commissioner/static/Commissioner-Regular.ttf');
   format: 'true-type';
-} */
+}
 
-@media only screen and (max-width: 600px) {
-  /* Base Styles */
+/* Base Styles */
+h1 {
+  font-family: 'Commissioner-Regular';
+  font-size: 3rem;
+  line-height: 5.5rem;
+}
 
-  h1 {
-    font-family: 'Commissioner-Regular';
-    font-size: 3rem;
-    line-height: 5.5rem;
-  }
+h2 {
+  font-family: 'Commissioner-ExtraBold', 'Arial';
+  font-size: 3.5rem;
+  line-height: 4rem;
+}
 
-  h2 {
-    font-family: 'Commissioner-ExtraBold';
-    font-size: 3.5rem;
-    line-height: 4rem;
-  }
+h3 {
+  font-family: 'Commissioner-ExtraBold';
+  font-size: 1.25rem;
+  line-height: 2rem;
+}
 
-  h3 {
-    font-family: 'Commissioner-ExtraBold';
-    font-size: 1.25rem;
-    line-height: 2rem;
-  }
+p {
+  font-family: 'Commissioner-Regular';
+  font-size: 1.125rem;
+  line-height: 2rem;
+}
 
-  p {
-    font-family: 'Commissioner-Regular';
-    font-size: 1.125rem;
-    line-height: 2rem;
-  }
+/* Top Navigation */
+.logo {
+  margin-left: 0;
+}
 
-  
+.nav-container,
+.links-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.links-container ul {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.links-container li {
+  list-style-type: none;
+}
+
+.links-container a {
+  font-family: 'Commissioner-Regular';
+  color: var(--white);
+  text-decoration: none;
+}
+
+.schedule-button {
+  padding: 1rem 3rem;
+  background-color: var(--bg-black);
+  color: var(--white);
+  border: none;
+}
+
+/* Header */
+.header-container {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100%;
+  margin: 0;
+}
+
+.header-text-left {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.header-text-left h1 {
+  font-size: 3rem;
+  line-height: 3.5rem;
+  margin: 2rem 0 2rem 1rem;
+}
+
+.header-text-left p {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.header-image-right {
+  height: 16rem;
+  width: 100%;
+  margin-left: 0;
+  background: url(../assets/mobile/image-hero.jpg) no-repeat 0 0;
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+}
+
+.header-button {
+  width: 55%;
+  margin: 1rem 1rem;
+  margin-bottom: 4rem;
+  padding: 1rem 2rem;
+  background-color: var(--red);
+  color: var(--white);
+  border: none;
+}
+
+/* Design is Strategic */
+.strategic-design {
+  display: flex;
+  flex-direction: column;
+}
+
+.strategic-image-left {
+  background: url(../assets/mobile/image-strategic.jpg) no-repeat 0 0;
+  background-position: center;
+  background-size: cover;
+  height: 16rem;
+  width: 100%;
+}
+
+.text-container {
+  margin: 0;
+}
+
+.strategic-text-right {
+  background-color: var(--bg-black);
+  height: 20rem;
+}
+
+.strategic-text-right h2 {
+  font-family: 'Commissioner-Regular';
+  font-size: 2rem;
+  width: 90%;
+  margin: 2rem 0 1rem 1.5rem;
+  color: var(--white);
+}
+
+.strategic-text-right p {
+  width: 90%;
+  margin: 1rem auto;
+  color: var(--white);
+}
+
+.strategic-text-right a {
+  color: var(--red);
+  margin: 0 0 0 1.5rem;
+  text-underline-offset: 0.75rem;
+}
+
+span {
+  color: var(--red);
+}
+
+/* Approach */
+.approach {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--red);
+  padding-bottom: 8rem;
+}
+
+.approach h2 {
+  font-family: 'Commissioner-Regular';
+  font-size: 2rem;
+  width: 75%;
+  line-height: 2.5rem;
+  margin: 6rem 0 1.5rem 2rem;
+}
+
+.approach h3 {
+  font-size: 1.2rem;
+}
+
+.approach p {
+  margin: 0 0 4rem 0;
+}
+
+.approach-title {
+  font-family: 'Commissioner-Regular';
+  color: var(--white);
+  margin: 0;
+  z-index: 1000;
+}
+
+.approach-number {
+  font-family: 'Commissioner-ExtraBold';
+  font-weight: 700;
+  font-size: 5rem;
+  opacity: 25%;
+  margin: -2.5rem;
+}
+
+.approach-list {
+  width: 80%;
+  height: 35rem;
+  padding: 0;
+  margin: 3rem 0 2rem 4rem;
+  background-color: var(--red);
+  color: var(--white);
+}
+
+.approach-list li {
+  list-style-type: none;
+  margin-bottom: 1rem;
+}
+
+.approach-list p {
+  font-family: 'Commissioner-Regular';
+  font-size: 1rem;
+  width: 80%;
+  list-style-type: none;
+}
+
+/* Slideshow Section */
+.Container {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.info-left {
+  height: 25rem;
+  background-color: var(--bg-black);
+  color: var(--white);
+  width: 100%;
+}
+
+.info-left h2 {
+  font-size: 2.5rem;
+  line-height: 3rem;
+  margin: 6rem 0 0 2rem;
+  width: 90%;
+}
+
+.slideshow-controls {
+  margin: 2rem 2rem;
+}
+
+.back {
+  margin: 5rem 0 0 0;
+}
+
+.forward {
+  margin: 0 0.5rem;
+}
+
+.back,
+.forward {
+  color: var(--red);
+}
+
+.image-right {
+  margin-left: 0;
+}
+
+.image-right-1 {
+  background: url('../assets/mobile/image-slide-1.jpg') no-repeat;
+  background-size: cover;
+  height: 30rem;
+}
+
+.image-right-2 {
+  background: url('../assets/mobile/image-slide-2.jpg') no-repeat;
+  background-size: cover;
+  height: 30rem;
+}
+
+.image-right-3 {
+  background: url('../assets/mobile/image-slide-3.jpg') no-repeat;
+  background-size: cover;
+  height: 30rem;
+}
+
+/* Footer */
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem 0;
+  padding: 0;
+  align-items: left;
+  /* 'align-items: center' prevents button from stretching */
+  height: 30rem;
+}
+
+.footer-title {
+  width: 85%;
+  margin: 0.5rem 0 2rem 2rem;
+}
+
+.footer-title h2 {
+  font-size: 2rem;
+  line-height: 2rem;
+}
+
+.footer-button {
+  padding: 1rem 3rem;
+  background-color: var(--red);
+  color: var(--white);
+  border: none;
+  margin-left: 2.25rem;
+  width: 45%;
+}
+
+.icon {
+  display: inline-block;
+  width: 16.3px;
+  height: 13.45px;
+  overflow: hidden;
+}
