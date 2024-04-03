@@ -384,12 +384,13 @@ span {
 
   .nav-container {
     height: 8rem;
+    justify-content: space-between;
   }
 
   .links-container {
-    margin-left: 29rem;
+    margin-left: 38rem;
     background-color: var(--red);
-    width: 55%;
+    width: 62%;
     padding: 3rem 5rem;
   }
 
