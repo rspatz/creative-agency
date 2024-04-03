@@ -59,7 +59,7 @@ p {
   flex-direction: column;
   width: 100%;
   align-items: center;
-  margin-left: 3rem;
+  /* margin-left: 3rem; */
   z-index: 1000;
 }
 
@@ -70,7 +70,7 @@ p {
 .links-container {
   background-color: var(--bg-black);
   width: 50%;
-  padding-bottom: 2rem;
+  padding: 2rem;
 }
 
 .links-container ul {
@@ -86,6 +86,7 @@ p {
 
 .links-container a {
   font-family: 'Commissioner-Regular';
+  font-size: 1.25rem;
   color: var(--white);
   text-decoration: none;
 }
@@ -234,8 +235,8 @@ span {
 }
 
 .approach-list {
-  width: 63%;
-  height: 40rem;
+  width: 69%;
+  height: 32rem;
   padding: 5rem 5rem 20rem 4rem;
   margin: 0;
   background-color: var(--red);
@@ -250,7 +251,7 @@ span {
 .approach-list p {
   font-family: 'Commissioner-Regular';
   font-size: 1rem;
-  width: 80%;
+  width: 100%;
   list-style-type: none;
 }
 
@@ -291,6 +292,12 @@ span {
   background: url('../assets/mobile/image-slide-3.jpg') no-repeat;
   background-size: cover;
   height: 30rem;
+}
+
+.image-text {
+  font-family: 'Commissioner-ExtraBold';
+  margin: 25rem 0 0 12rem;
+  color: var(--white);
 }
 
 .slideshow-controls {
@@ -398,6 +405,7 @@ span {
 
   .links-container a {
     font-family: 'Commissioner-Regular';
+    font-size: 1rem;
     color: var(--white);
     text-decoration: none;
   }
