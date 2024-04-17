@@ -524,6 +524,7 @@ span {
     font-size: 3.5rem;
     line-height: 4rem;
     width: 80%;
+    margin-left: 0;
   }
 
   .approach-title {
