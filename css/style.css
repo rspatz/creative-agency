@@ -13,7 +13,7 @@
 /* Fonts */
 @font-face {
   font-family: 'Commissioner-ExtraBold';
-  src: url('./fonts/Commissioner/static/Commissioner-ExtraBold.ttf');
+  src: url('../fonts/Commissioner/static/Commissioner-ExtraBold.ttf');
   format: 'true-type';
 }
 
