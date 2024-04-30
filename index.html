@@ -15,20 +15,30 @@
     <title>Frontend Mentor | Creative single page site</title>
   </head>
   <body>
-    <nav class="nav-container">
+    <div class="nav-container" id="nav-container">
       <div class="logo">
         <img src="./assets/desktop/logo.svg" alt="" />
       </div>
 
-      <div class="links-container">
-        <ul>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Service</a></li>
-          <li><a href="#">Projects</a></li>
-        </ul>
-        <button class="schedule-button">Schedule a call</button>
+      <button
+        class="mobile-nav-toggle"
+        aria-controls="main-nav"
+        aria-expanded="false"
+      >
+        <span class="sr-only">Menu</span>
+      </button>
+
+      <div class="nav-list-background">
+        <div class="main-nav">
+          <ul id="main-nav-list" data-visible="false" class="main-nav-list">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Projects</a></li>
+          </ul>
+          <button class="schedule-button">Schedule a call</button>
+        </div>
       </div>
-    </nav>
+    </div>
 
     <header>
       <div class="header-container">
@@ -194,5 +204,3 @@
     <script src="js/script.js"></script>
   </body>
 </html>
-
-<!-- https://rspatz.github.io/creative-agency/ -->
